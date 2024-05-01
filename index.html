@@ -23,32 +23,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link fs-5" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#home">Home</a></li>
                             <li class="nav-item"><a class="nav-link fs-5" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link fs-5" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link fs-5" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link fs-5" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fs-5" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fs-5" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#contacts">Contact Us</a></li>
+                            <li class="nav-item"><a href="#booking"><button type="button" class="btn btn-danger rounded-5">Book An Appointment</button></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
 
             <!-- Header-->
-            <header class="bg-color1 py-5">
+            <header class="bg-color1 py-5" id="home">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -177,7 +162,7 @@
                                             <label for="email" class="form-label">Email address</label>
                                             <input type="email" class="form-control" id="email" required>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Book</button>
+                                        <button type="submit" class="btn btn-danger">Book</button>
                                     </form>
                                 </div>
                             </div>
@@ -311,7 +296,7 @@
     </div>
 
 	<!-- Footer -->
-	<footer class="site-footer bg-color1">
+	<footer class="site-footer bg-color1" id="contacts">
 		<div class=" container">
 			<div class="footer-inner text-dark">
                 <div class="col-lg-5 col-md-5 col-sm-5 d-flex flex-column justify-content-between">
